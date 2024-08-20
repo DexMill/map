@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shared Event Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+    <form id="event-form">
+      <input type="text" id="event-name" placeholder="Event Name" required />
+      <input
+        type="text"
+        id="event-description"
+        placeholder="Event Description"
+      />
+      <button type="submit">Add Event</button>
+    </form>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

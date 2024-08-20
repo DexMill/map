@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#event-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
+}
+
+input,
+button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
